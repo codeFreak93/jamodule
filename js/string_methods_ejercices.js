@@ -7,3 +7,13 @@
 
 let str ='PALABRA';
 console.log(`la palabra "${str}" tiene  ${str.length} caracteres`);
+
+/**
+ * Ejercicio 2
+ * Declarar 2 variables con strings y concatenarlos
+ */
+
+ let str1 ='variable1';
+ let str2 = 'variable2';
+
+console.log(str1.concat(' ',str2));
