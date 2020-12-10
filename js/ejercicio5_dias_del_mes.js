@@ -5,7 +5,7 @@
 // 5 -> 31 días
 
 let numero = parseInt(prompt('Introduce un numero entre 1 y 12'))
-
+console.log(numero)
 let anio = new Date().getFullYear();
-
-console.log( `${new Date(numero-1, anio,0).getDate()} días`);
+console.log(anio)
+console.log( `${new Date(anio, numero,0).getDate()} días`);
