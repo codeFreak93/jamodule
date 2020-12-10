@@ -56,7 +56,7 @@ ARREGLO.forEach(palabra => {
     arregloCapitalizado.push(palabra.charAt(0).toUpperCase() + palabra.slice(1))
 });
 
-console.log(arregloCapitalizado.join().replaceAll(',', ' '))
+console.log(arregloCapitalizado.join(' '))
 
 /**
  * Ejercicio 6
@@ -67,7 +67,8 @@ console.log(arregloCapitalizado.join().replaceAll(',', ' '))
  */
 
  const usuario = 'jorgec@kodemia.mx';
- console.log(usuario.replace('jorgec', '*****'));
+ const usuarioIndex = usuario.indexOf('@');
+ console.log(`*****${usuario.slice(6)}`)
 
 /*Ejercicio 8
 Declarar un string de al menos 2 palabras
