@@ -8,7 +8,7 @@
 // -> si es mayor o igual a 50 y menor que 60 , imprimir "E"
 // -> si es menor 50 , imprimir "F"
 
-let calificacion = prompt('Introduce una calificación de 0 a 100')
+let calificacion = parseInt( prompt('Introduce una calificación de 0 a 100'))
 
 if(calificacion >= 90){
     console.log('A')
