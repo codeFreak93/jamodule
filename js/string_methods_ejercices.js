@@ -17,3 +17,13 @@ console.log(`la palabra "${str}" tiene  ${str.length} caracteres`);
  let str2 = 'variable2';
 
 console.log(str1.concat(' ',str2));
+
+
+/**
+ * Ejercicio 3
+ * Declarar un string de al menos 10 caracteres
+ * imprimir en consola del 4 al 6 caracter
+ */
+
+ const CARACTER = 'EJERCICIO TRES';
+ console.log(CARACTER.slice(3,6))
