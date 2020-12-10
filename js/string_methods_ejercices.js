@@ -68,3 +68,12 @@ console.log(arregloCapitalizado.join().replaceAll(',', ' '))
 
  const usuario = 'jorgec@kodemia.mx';
  console.log(usuario.replace('jorgec', '*****'));
+
+/*Ejercicio 8
+Declarar un string de al menos 2 palabras
+convertir ese string en un array
+"Hola koders"
+["hola", "koders"]*/
+let str = "Hola koders";
+let res = str.split(' ')
+console.log(res)
