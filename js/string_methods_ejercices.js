@@ -27,3 +27,15 @@ console.log(str1.concat(' ',str2));
 
  const CARACTER = 'EJERCICIO TRES';
  console.log(CARACTER.slice(3,6))
+
+
+/**
+ * Ejercicio 4
+ * Declarar un string de al menos 2 palabras
+ * imprimir en consola el string separado por guiones en cada palabra
+ * "hola koders"
+ * "hola-koders"
+ */
+
+ const PALABRAS = 'UNO DOS TRES CUATRO';
+ console.log(PALABRAS.replaceAll(' ', '-'))
