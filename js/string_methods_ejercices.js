@@ -57,3 +57,14 @@ ARREGLO.forEach(palabra => {
 });
 
 console.log(arregloCapitalizado.join().replaceAll(',', ' '))
+
+/**
+ * Ejercicio 6
+ * Declarar un string con un correo electrónico
+ * Enmascarar con "*" el bloque del usuario
+ * "jorgec@kodemia.mx"
+ * "*****@kodemia.mx"
+ */
+
+ const usuario = 'jorgec@kodemia.mx';
+ console.log(usuario.replace('jorgec', '*****'));
