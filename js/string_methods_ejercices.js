@@ -39,3 +39,21 @@ console.log(str1.concat(' ',str2));
 
  const PALABRAS = 'UNO DOS TRES CUATRO';
  console.log(PALABRAS.replaceAll(' ', '-'))
+
+
+ /**
+ * Ejercicio 5
+ * Declarar un string de al menos 2 palabras
+ * imprimir en consola el string con cada una de las palabras Capitalizadas
+ * "hola koders"
+ * "Hola Koders"
+ */
+
+const PALABRASEJ5 = 'uno dos';
+const ARREGLO = PALABRASEJ5.split(' ');
+let arregloCapitalizado= [];
+ARREGLO.forEach(palabra => {
+    arregloCapitalizado.push(palabra.charAt(0).toUpperCase() + palabra.slice(1))
+});
+
+console.log(arregloCapitalizado.join().replaceAll(',', ' '))
