@@ -74,6 +74,6 @@ Declarar un string de al menos 2 palabras
 convertir ese string en un array
 "Hola koders"
 ["hola", "koders"]*/
-let str = "Hola koders";
-let res = str.split(' ')
+let str8 = "Hola koders";
+let res = str8.split(' ')
 console.log(res)
