@@ -113,3 +113,9 @@ function saludar(nombre='Sin nombre'){
 }
 
 saludar();
+
+function sumar(a, b){
+    return a +b;
+}
+
+console.log(sumar(1 ,2) + sumar(1,4))
