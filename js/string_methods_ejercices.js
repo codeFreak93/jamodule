@@ -99,3 +99,9 @@ for(let i=1; i<=100; i++){
         console.log(i);
     }
 }
+
+/*imprimir en consola la cantidad de espacios que se encuentran en una cadena de texto
+“en un lugar de la mancha” -> 5*/
+const cadena = 'en un lugar de la mancha';
+const arregloMatches = cadena.match(/ /g);
+console.log(`${cadena} -> ${arregloMatches.length}`);
