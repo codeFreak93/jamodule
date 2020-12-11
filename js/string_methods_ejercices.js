@@ -78,3 +78,7 @@ convertir ese string en un array
 let str8 = "Hola koders";
 let res = str8.split(' ')
 console.log(res)
+
+for (let i = 1; i <=10; i++) {
+    console.log(i);
+}
