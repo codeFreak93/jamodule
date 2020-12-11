@@ -74,7 +74,7 @@ function printMultiplos(x, y, rangoA, rangoB){
         if(i%x===0  || i%y===0){
             console.log(i);
         }
-    }
+    }   
 }
 
 printMultiplos(2,7, 50, 80);
@@ -89,3 +89,20 @@ function countWhiteSpaces(texto){
 }
 
 countWhiteSpaces('ANITA LAVA LA TINA');
+
+/*imprimir en consola la cantidad de vocales que se encuentran en una cadena de texto
+“Hola mundo” -> 4*/
+
+function contarVocales(texto){
+    const vocales = 'aeiouAEIOU';
+    let cantidadVocales =0;
+    for(i=0; i<=texto.length; i++){
+        if(vocales.includes(texto[i])){
+            cantidadVocales++
+        }
+    }
+
+    console.log(cantidadVocales);
+}
+
+contarVocales('HOLA MUNDO');
