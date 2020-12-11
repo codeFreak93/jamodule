@@ -65,3 +65,18 @@ function capitalizeString(stringVal){
 
 
 capitalizeString('juan de dios');
+
+/*imprimir en consola los múltiplos de x y y  que se encuentran entre el rango a y b
+*/
+
+function printMultiplos(x, y, rangoA, rangoB){
+    for(let i=rangoA; i<=rangoB; i++){
+        if(i%x===0  || i%y===0){
+            console.log(i);
+        }
+    }
+}
+
+printMultiplos(2,7, 50, 80);
+
+
