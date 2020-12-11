@@ -25,4 +25,4 @@ for(let i = palabra.length-1; i>=0; i--){
     arreglo.push(palabra[i]);
 }
 
-console.log(arreglo.toString().replace(/,/g,''));
+console.log(arreglo.join(''));
