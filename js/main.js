@@ -13,3 +13,16 @@ for(let i=1; i<=100; i++){
         console.log(i);
     }
 }
+
+
+//dado un string
+//"reverse"
+//invertir el orden e imprimir en consola
+
+const palabra = 'reverse';
+let arreglo =[];
+for(let i = palabra.length-1; i>=0; i--){
+    arreglo.push(palabra[i]);
+}
+
+console.log(arreglo.toString().replace(/,/g,''));
