@@ -82,3 +82,11 @@ console.log(res)
 for (let i = 1; i <=10; i++) {
     console.log(i);
 }
+
+
+/*Imprimir en consola la tabla del 7
+7 x 1 = 7*/
+const tabla = 7;
+for(let i=1; i<=10 ; i++){
+    console.log(`${tabla} x ${i} = ${tabla*i}`);
+}
