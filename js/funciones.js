@@ -30,3 +30,15 @@ imprimeTabla(10);
 function contarCaracteres(palabra){
     console.log(`la palabra "${palabra}" tiene  ${palabra.length} caracteres`);
 }
+contarCaracteres('palabra');
+
+/**
+ * Ejercicio
+ * Declarar 2 variables con strings y concatenarlos
+ */
+
+ function conCatenar(string1, string2){
+    console.log(string1.concat(' ',string2));
+ }
+
+ conCatenar('Juan', 'Hernández');
