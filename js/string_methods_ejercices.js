@@ -105,3 +105,16 @@ for(let i=1; i<=100; i++){
 const cadena = 'en un lugar de la mancha';
 const arregloMatches = cadena.match(/ /g);
 console.log(`${cadena} -> ${arregloMatches.length}`);
+
+/*imprimir en consola la cantidad de vocales que se encuentran en una cadena de texto
+“Hola mundo” -> 4*/
+const cadenaVocals = 'Hola mundo';
+const vocales = 'aeiouAEIOU';
+let cantidadVocales =0;
+for(i=0; i<=cadenaVocals.length; i++){
+    if(vocales.includes(cadenaVocals[i])){
+        cantidadVocales++
+    }
+}
+
+console.log(cantidadVocales);
