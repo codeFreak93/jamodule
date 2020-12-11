@@ -80,3 +80,12 @@ function printMultiplos(x, y, rangoA, rangoB){
 printMultiplos(2,7, 50, 80);
 
 
+/*imprimir en consola la cantidad de espacios que se encuentran en una cadena de texto
+“en un lugar de la mancha” -> 5*/
+
+function countWhiteSpaces(texto){
+    const arregloMatches = texto.match(/ /g);
+    console.log(`${texto} -> ${arregloMatches.length}`);
+}
+
+countWhiteSpaces('ANITA LAVA LA TINA');
