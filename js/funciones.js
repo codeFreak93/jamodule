@@ -42,3 +42,26 @@ contarCaracteres('palabra');
  }
 
  conCatenar('Juan', 'Hernández');
+
+
+ /**
+ * Ejercicio 
+ * Declarar un string de al menos 2 palabras
+ * imprimir en consola el string con cada una de las palabras Capitalizadas
+ * "hola koders"
+ * "Hola Koders"
+ */
+
+
+function capitalizeString(stringVal){
+    const ARREGLO = stringVal.split(' ');
+    let arregloCapitalizado= [];
+    ARREGLO.forEach(palabra => {
+        arregloCapitalizado.push(palabra.charAt(0).toUpperCase() + palabra.slice(1))
+    });
+
+    console.log(arregloCapitalizado.join(' '))
+}
+
+
+capitalizeString('juan de dios');
