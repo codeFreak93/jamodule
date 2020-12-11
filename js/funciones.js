@@ -18,3 +18,15 @@ function imprimeTabla(numero){
 }
 
 imprimeTabla(10);
+
+
+/** 
+ * ejercicio 
+    1. Asignar un string a una variable 
+    2. Verificar cuantos caracteres tiene ese string
+    3. Imprimirlo en consola
+*/
+
+function contarCaracteres(palabra){
+    console.log(`la palabra "${palabra}" tiene  ${palabra.length} caracteres`);
+}
