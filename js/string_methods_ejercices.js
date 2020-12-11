@@ -90,3 +90,12 @@ const tabla = 7;
 for(let i=1; i<=10 ; i++){
     console.log(`${tabla} x ${i} = ${tabla*i}`);
 }
+
+/*imprimir en consola los múltiplos de 3 y 7  que se encuentran entre el 1 y el 100
+3,6,7,9,12,14,15....*/
+
+for(let i=1; i<=100; i++){
+    if(i%3===0  || i%7===0){
+        console.log(i);
+    }
+}
