@@ -14,6 +14,14 @@ for(let i=1; i<=100; i++){
     }
 }
 
+// imprimir los numeros pares entre 1 y 100; con while
+let counterwhile = 1;
+while (counterwhile <=100) {
+    if(counterwhile%2===0){
+        console.log(i);
+    }
+}
+
 
 //dado un string
 //"reverse"
@@ -26,3 +34,10 @@ for(let i = palabra.length-1; i>=0; i--){
 }
 
 console.log(arreglo.join(''));
+
+//tabla del 7 con while
+let counter =1;
+while(counter <= 10){
+    console.log(`7 x${counter} = ${7*counter}`);
+    counter ++;
+}
