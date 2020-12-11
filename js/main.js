@@ -18,8 +18,9 @@ for(let i=1; i<=100; i++){
 let counterwhile = 1;
 while (counterwhile <=100) {
     if(counterwhile%2===0){
-        console.log(i);
+        console.log(counterwhile);
     }
+    counterwhile ++;
 }
 
 
@@ -34,6 +35,18 @@ for(let i = palabra.length-1; i>=0; i--){
 }
 
 console.log(arreglo.join(''));
+
+let palabraCounter = palabra.length-1;
+let arregloWhile =[];
+while (palabraCounter>=0) {
+    console.log(palabraCounter)
+    arregloWhile.push(palabra[palabraCounter]);
+    palabraCounter --;
+}
+
+console.log(arregloWhile.join(''));
+
+
 
 //tabla del 7 con while
 let counter =1;
