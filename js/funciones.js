@@ -106,3 +106,10 @@ function contarVocales(texto){
 }
 
 contarVocales('HOLA MUNDO');
+
+
+function saludar(nombre='Sin nombre'){
+    console.log(`hola ${nombre}`);
+}
+
+saludar();
