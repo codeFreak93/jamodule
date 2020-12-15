@@ -65,7 +65,7 @@ function temperatureConverter(grados, medida){
     }
 }
 
-console.log(`${temperatureConverter(32, 'c')} °C`)
+console.log(`${temperatureConverter(32, 'c')} °F`)
 
 
 /*
