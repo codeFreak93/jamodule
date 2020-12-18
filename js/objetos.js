@@ -149,3 +149,24 @@ let personst = [
 const cantidad = personst.reduce((acum,actual)=> actual.voted === true ? acum+1 : acum+0,0)
 const edadPromedio = personst.reduce((acum,actual)=> acum+actual.age,0)/personst.length
 console.log(`Cantidad de personas que votaron ${cantidad} Edad promedio ${edadPromedio}`)
+
+
+
+console.log('Hola koders')
+let numbersReduce =[
+    [1,2,4],
+    [1,2,8],
+    [1,9,3]
+]
+
+//total 31
+
+const sumNumbers = (arrAy)=>{
+  return  arrAy.reduce((acc,item)=>{
+       return acc + item.reduce((childAcc, num)=>{
+            return childAcc + num
+        },0)
+    },0) 
+}
+
+console.log(sumNumbers(numbersReduce))
