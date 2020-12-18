@@ -115,8 +115,8 @@ let users = [
 //   'Zach Klabunde': 'Instructor'
 //   }
 
-let users2 =  users.reduce((obj, item) => (obj[item.firstName] = item.role, obj) ,{});
-console.log(users2)
+let joinUsers = users=> users.reduce((obj, item) => (obj[item.firstName + ' ' + item.lastName] = item.role, obj) ,{});
+console.log(joinUsers(users))
 
 
 //  tomando el array users,
