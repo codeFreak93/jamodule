@@ -74,3 +74,14 @@ const addELements = (selector, numberELements, arrayNames)=>{
 const koders =['ale', 'oscar', 'ruben', 'brian'];
 
 addELements('.lista', 25, koders)
+
+
+const filterELements = letra =>{
+    let filtrados = koders.filter((koder)=>{
+        return koder.toLocaleLowerCase().startsWith(letra.toLocaleLowerCase())
+    })
+
+    console.log(filtrados)
+
+    addELements('.lista',filtrados.length, filtrados)
+}
