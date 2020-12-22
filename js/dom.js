@@ -85,3 +85,11 @@ const filterELements = letra =>{
 
     addELements('.lista',filtrados.length, filtrados)
 }
+
+//onchange()
+//document.getELementById('orden').value
+
+//funcion
+//metodo cualquiera
+//innerHTML
+//lo tiene que disparar el selector
