@@ -93,3 +93,20 @@ const filterELements = letra =>{
 //metodo cualquiera
 //innerHTML
 //lo tiene que disparar el selector
+
+const ordenar = (valor)=>{
+    if(valor.toLocaleLowerCase() ==='a') {
+       addELements('.lista', koders.length, koders.sort())
+    }else if(valor.toLocaleLowerCase()==='d'){
+        addELements('.lista', koders.length, koders.sort((a,b)=>{
+            if(a>b){
+                return -1
+            }
+            if(b>a){
+                return 1
+            }
+
+            return 0;
+        }))
+    }
+}
