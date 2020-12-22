@@ -25,3 +25,52 @@ for(let i=1; i<=2; i++){
 document.getElementById('caja').appendChild(ul)
 
 
+//let elemento = document.getElementById('elementToSet')
+let elementos = document.getElementsByClassName('parrafos')
+console.log(elementos)
+let secondElement = elementos[1]
+secondElement.classList.add('active')
+secondElement.classList.remove('parrado2')
+console.log(secondElement.classList)
+//elemto.setAttribute('class','myClass');
+
+let bytag = document.getElementsByTagName('section')
+console.log(bytag)
+
+bytag[0].classList.add('section__parrafo')
+
+//querySelector
+let  queryselec = document.querySelectorAll('.secciones')
+console.log(queryselec)
+//tarea
+document.getElementById('caja2').innerHTML=`
+    <ul>
+        <li>
+            <a href="">item 1</a>
+        </li>
+        <li>
+            <a href="">item 1</a>
+        </li>
+    </ul>
+`
+
+
+const addELements = (selector, numberELements, arrayNames)=>{
+    let totalElements = numberELements>=arrayNames.length?arrayNames.length:numberELements
+
+    let elements = ""
+
+    for(i=0; i<totalElements; i++){
+        elements+=`
+        <li>
+            <a href="">Koder ${i+1}: ${arrayNames[i]}</a>
+        </li>
+        `
+    }
+
+    document.querySelector(`${selector}`).innerHTML =elements
+    
+}
+const koders =['ale', 'oscar', 'ruben', 'brian'];
+
+addELements('.lista', 25, koders)
